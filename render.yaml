@@ -1,0 +1,9 @@
+services:
+  - name: mitchelle-portfolio
+    type: static
+    env: static
+    repo: https://github.com/Josephat200/mitchelle.git
+    branch: main
+    rootDirectory: .
+    buildCommand: ""
+    staticPublishPath: .
